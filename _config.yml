@@ -1,7 +1,7 @@
 # Site settings
 title: Li Ding Blog
 SEOTitle: 丁立的博客 | LiDing Blog
-header-img: img/post-bg-rwd.jpg 
+header-img: img/max-saeling-1097515-unsplash.jpg 
 email: dingli950311@gmail.com
 description: "Stay hungry, stay foolish."
 keyword: "DL, Li Ding Blog, 丁立的博客, babyding, 丁立, Bioinformatics, LiDing"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/babyding/babyding.github.io.git" # you code rep
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/psb.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
