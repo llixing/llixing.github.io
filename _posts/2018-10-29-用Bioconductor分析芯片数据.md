@@ -1,15 +1,15 @@
 ---
 layout:     post
-title:      用Bioconductor分析芯片数据
-subtitle:   HMM介绍及软件相关软件使用
+title:      使用R语言分析Microarray芯片数据
+subtitle:   Bioiconductor包分析芯片数据入门
 date:       2018-10-29
 author:     DL
 header-img: img/post-bg-github-cup.jpg
 catalog: true
 tags:
-    - HMM
-    - hmmer
-    - 隐马尔科夫模型
+    - R语言
+    - Bioconductor
+    - 芯片数据
 ---
 
 ---
