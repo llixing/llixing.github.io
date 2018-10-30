@@ -13,13 +13,8 @@ tags:
 ---
 
 ---
-# 前言
 
-本系列包括两部分，第一部分是对单组芯片数据进行分析，第二部分是对多组芯片数据进行meta-analysis。
-
-# 第一部分
-
-## 安装R和Bioconductor包
+# 安装R和Bioconductor包
 	$ sudo apt-get install r-base-core libxml2-dev libcurl4-openssl-dev curl
 	$ R
 
@@ -32,7 +27,7 @@ tags:
 	> # 安装GEO包
 	> biocLite("GEOquery")
 
-## 下载芯片数据
+# 下载芯片数据
 本文以GSE20986为例。首选我们从GEO数据库下载原始数据，导入GEOquery包，用它下载原始数据:
 	
 	> library(GEOquery)
@@ -47,7 +42,7 @@ GSE20986_RAW.tar 文件是压缩打包的 CEL（Affymetrix array 数据原始格
 	> cels <- list.files("data/", pattern = "[gz]")
 	> sapply(paste("data", cels, sep="/"), gunzip)
 	> cels
-## 芯片实验信息整理
+# 芯片实验信息整理
 在对数据进行分析之前，我们需要先整理好实验设计信息。这其实就是一个文本文件，包含芯片名字、此芯片上杂交的样本名字。为了方便在 R 中 使用 simpleaffy 包读取实验信息文本文件，需要先编辑好格式：
 	
 	$ ls -1 data/*.CEL > data/phenodata.txt
@@ -71,7 +66,7 @@ Target 这一栏数据是芯片上的样本标签，例如 iris, retina, HUVEC, 
 	GSM524672.CEL GSM524672.CEL huvec
 	GSM524673.CEL GSM524673.CEL huvec
 注意：每栏之间是使用 Tab 进行分隔的，而不是空格！
-## 载入数据并对其进行标准化
+# 载入数据并对其进行标准化
 需要先安装 simpleaffy 包，simpleaffy 包提供了处理 CEL 数据的程序，可以对 CEL 数据进行标准化同时导入实验信息（即前一步中整理好的实验信息文本文件内容），导入数据到 R 变量 celfiles 中：
 	
 	> biocLite("simpleaffy")
@@ -113,7 +108,7 @@ Target 这一栏数据是芯片上的样本标签，例如 iris, retina, HUVEC, 
 	featureData: none
 	experimentData: use 'experimentData(object)'
 	Annotation: hgu133plus2
-## 数据质量控制
+# 数据质量控制
 再进行下一步的数据分析之前，我们有必要对数据质量进行检查，确保没有其他的问题。首先，可以通过对标准化之前和之后的数据画箱线图来检查 GC-RMA 标准化的效果：
 
 	> # 载入色彩包
@@ -193,7 +188,7 @@ CEL 数据的 NUSE 图
 
 图形显示，与其他眼组织相比 HUVEC 样品是单独的一组，表现出组织类型聚集的一些特征，另外 GSM524665.CEL 数据在此图中并不显示为异常值。
 
-## 数据过滤
+# 数据过滤
 现在我们可以对数据进行分析了，分析的第一步就是要过滤掉数据中的无用数据，例如作为内参的探针数据，基因表达无明显变化的数据（在差异表达统计时也会被过滤掉），信号值与背景信号差不多的探针数据。
 下面的 nsFilter 参数是为了不删除没有 Entrez Gene ID 的位点，保留有重复 Entrez Gene ID 的位点：
 
@@ -208,7 +203,7 @@ CEL 数据的 NUSE 图
 
 我们可以看出有 27307 个探针位点因为无明显表达差异（LowVar）被过滤掉，有 62 个探针位点因为是内参而被过滤掉。
 
-## 查找有表达差异的探针位点
+# 查找有表达差异的探针位点
 现在有了过滤之后的数据，我们就可以用 limma 包进行差异表达分析了。首先，我们要提取样本的信息：
 	
 	> samples <- celfiles.gcrma$Target
@@ -316,7 +311,7 @@ CEL 数据的 NUSE 图
 	> # 提取表达量倍数变化超过 4 的探针列表
 	> probeset.list <- topTable(huvec_ebFit, coef=1, number=10000, lfc=4)
 
-## 注释差异分析结果的基因 ID
+# 注释差异分析结果的基因 ID
 为了将探针集注释上基因 ID 我们需要先安装一些数据库的包和注释的包，之后可以提取 topTable 中的探针 ID 并注释上基因 ID：
 
 	> biocLite("hgu133plus2.db")
