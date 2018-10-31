@@ -91,8 +91,7 @@ tags:
 	htseq-count
 
 继续搜索hisat2
-	source deactivate
 	conda install hisat2 
-	conda install hisat2 sra-tools -y 
+	conda install sra-tools -y 
 
 From Y大宽  生信猿
