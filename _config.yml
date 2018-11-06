@@ -51,8 +51,8 @@ kramdown:
 
 
 # 评论系统
-Disqus（https://disqus.com/）
-disqus_username: babyding
+# Disqus（https://disqus.com/）
+# disqus_username: babyding
 
 # Gitalk
 # gitalk:
