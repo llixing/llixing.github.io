@@ -11,6 +11,10 @@ tags:
     - Ubuntu
 ---
 
+> 正所谓前人栽树，后人乘凉。
+> 
+> 感谢[Y大宽](https://www.jianshu.com/u/51a71446d509)、[徐洲更](https://www.jianshu.com/u/9ea40b5f607a)等生信前辈。
+
 # 一、安装Anaconda
 直接从官网下载对应于自己python版本的conda即可：
 
@@ -94,4 +98,3 @@ tags:
 	conda install hisat2 
 	conda install sra-tools -y 
 
-From Y大宽  生信猿
