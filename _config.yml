@@ -1,10 +1,10 @@
 # Site settings
-title: Li Ding Blog
+title: LiDing Blog
 SEOTitle: 丁立的博客 | LiDing Blog
 header-img: img/max-saeling-1097515-unsplash.jpg 
 email: dingli950311@gmail.com
 description: "Stay hungry, stay foolish."
-keyword: "DL, Li Ding Blog, 丁立的博客, babyding, 丁立, Bioinformatics, LiDing"
+keyword: "DL, LiDing Blog, 丁立的博客, babyding, 丁立, Bioinformatics, LiDing"
 url: "http://babyding.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/babyding/babyding.github.io.git" # you code repository
