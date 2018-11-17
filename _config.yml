@@ -107,3 +107,4 @@ service-worker: true
 #         href: "https://developer.apple.com/"
 #     }
 # ]
+paginate: 5
