@@ -4,7 +4,7 @@ title:      使用R语言分析Microarray芯片数据
 subtitle:   Bioiconductor包分析芯片数据入门
 date:       2018-10-29
 author:     DL
-header-img: img/post-bg-github-cup.jpg
+header-img: img/home-bg-o.jpg
 catalog: true
 tags:
     - R语言
