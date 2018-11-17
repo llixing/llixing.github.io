@@ -4,7 +4,7 @@ title:      Ubuntu下conda的安装及使用
 subtitle:   用conda安装RNA-seq所需要的工具
 date:       2018-10-31
 author:     DL
-header-img: img/post-bg-universe.jpg
+header-img: img/home-bg-o.jpg
 catalog: true
 tags:
     - Conda
