@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      使用R语言分析Microarray芯片数据
-subtitle:   2018-10-29-Bioiconductor包分析芯片数据入门
+title:      2018-10-29-使用R语言分析Microarray芯片数据
+subtitle:   Bioiconductor包分析芯片数据入门
 date:       2018-10-29
 author:     DL
 header-img: img/home-bg-o.jpg
