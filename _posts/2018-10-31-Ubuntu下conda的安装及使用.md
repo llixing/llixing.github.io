@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Ubuntu下conda的安装及使用
+title:      2018-10-31-Ubuntu下conda的安装及使用
 subtitle:   用conda安装RNA-seq所需要的工具
 date:       2018-10-31
 author:     DL
