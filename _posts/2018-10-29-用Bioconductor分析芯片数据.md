@@ -12,7 +12,9 @@ tags:
     - 芯片数据
 ---
 
----
+> 正所谓前人栽树，后人乘凉。
+> 
+> 感谢[To_2019_1_4](https://www.jianshu.com/u/3d4ab5380a01)提供的非常详尽的资料。
 
 # 安装R和Bioconductor包
 	$ sudo apt-get install r-base-core libxml2-dev libcurl4-openssl-dev curl
@@ -433,7 +435,5 @@ CEL 数据的 NUSE 图
 	> results <- cbind(probeset.list, gene.symbols)
 	> write.table(results, "results.txt", sep="\t", quote=FALSE)
 
-
-from <https://www.jianshu.com/p/07ecff240548>
 
 	
