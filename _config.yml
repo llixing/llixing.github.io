@@ -8,6 +8,7 @@ keyword: "DL, Li Ding Blog, 丁立的博客, babyding, 丁立, Bioinformatics, L
 url: "http://babyding.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/babyding/babyding.github.io.git" # you code repository
+paginate_path: "blog/page:6"
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
