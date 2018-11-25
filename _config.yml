@@ -16,6 +16,7 @@ sidebar-avatar: /img/psb.jpg      # use absolute URL, seeing it's used in both `
 
 # url
 category_dir: category/
+tag_dir: tag/
 
 # SNS settings
 RSS: false    
@@ -36,7 +37,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
-paginate: 10
+
 
 
 
@@ -108,4 +109,4 @@ service-worker: true
 #         href: "https://developer.apple.com/"
 #     }
 # ]
-paginate: 5
+
