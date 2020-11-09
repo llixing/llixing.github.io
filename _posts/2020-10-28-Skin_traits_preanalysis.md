@@ -7,7 +7,7 @@ author:     DL
 header-img: img/home-bg-o.jpg
 catalog: true
 tags:
-    - RNA-seq
+    - R
 ---
 
 ### 1.Venn图
