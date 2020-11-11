@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      2020-11-10-Seurat_3.0包学习笔记（一）
-subtitle:   Guided Clustering Tutorial
+title:      2020-11-10-Guided Clustering Tutorial
+subtitle:   Seurat_3.0包学习笔记（一）
 date:       2020-11-10
 author:     DL
 header-img: img/home-bg-o.jpg
