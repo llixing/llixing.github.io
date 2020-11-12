@@ -221,7 +221,7 @@ print(pbmc[["pca"]], dims = 1:5, nfeatures = 5)
 Seurat可以使用VizDimReduction, DimPlot, 和DimHeatmap函数对PCA的结果进行可视化
 
 ```
-VizDimLoadings(pbmc, dims = 1:2, reduction = "pca")`
+VizDimLoadings(pbmc, dims = 1:2, reduction = "pca")
 ```
 
 [![BXG3TJ.png](https://s1.ax1x.com/2020/11/11/BXG3TJ.png)](https://imgchr.com/i/BXG3TJ)
