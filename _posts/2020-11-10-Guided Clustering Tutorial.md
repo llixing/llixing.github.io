@@ -59,7 +59,7 @@ packageVersion("Seurat")
 
 ```
 # Load the PBMC dataset
-pbmc.data <- Read10X(data.dir = "/home/dongwei/scRNA-seq/data/pbmc3k/filtered_gene_bc_matrices/hg19/")
+pbmc.data <- Read10X(data.dir = "E:/Seurat_scRNA/00_raw_data/pbmc3k/filtered_gene_bc_matrices/hg19/")
 # Initialize the Seurat object with the raw (non-normalized data).
 # 初步过滤：每个细胞中至少检测到200个基因，每个基因至少在3个细胞中表达
 pbmc <- CreateSeuratObject(counts = pbmc.data, project = "pbmc3k", min.cells = 3, min.features = 200)
