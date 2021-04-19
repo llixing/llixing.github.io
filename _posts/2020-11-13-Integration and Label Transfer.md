@@ -7,7 +7,7 @@ author:     DL
 header-img: img/home-bg-o.jpg
 catalog: true
 tags:
-    - 单细胞测序
+    - 单细胞转录组
 ---
 
 > 资料来源：[bioinfomics公众号](https://mp.weixin.qq.com/s?__biz=MzUzNzYwOTM1NA==&mid=2247484260&idx=1&sn=c7388166d20096e77c5df3487fa4b6cc&scene=19#wechat_redirect)
