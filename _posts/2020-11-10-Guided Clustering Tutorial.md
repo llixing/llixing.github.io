@@ -7,7 +7,7 @@ author:     DL
 header-img: img/home-bg-o.jpg
 catalog: true
 tags:
-    - 单细胞转录组
+    - scRNA-seq
 ---
 
 > 资料来源：[bioinfomics公众号](https://mp.weixin.qq.com/s?__biz=MzUzNzYwOTM1NA==&mid=2247484247&idx=1&sn=85a95ff1bc41b444695314326153920a&scene=19#wechat_redirect)
