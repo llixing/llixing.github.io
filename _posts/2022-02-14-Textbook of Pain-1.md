@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      2022-02-14-英文教科书Textbook of Pain读书笔记
-subtitle:   Chapter 1: Peripheral Mechanisms of Cutaneous Nociception
+subtitle:   Chapter 1——Peripheral Mechanisms of Cutaneous Nociception
 date:       2022-02-14
 author:     DL
 header-img: img/home-bg-o.jpg
