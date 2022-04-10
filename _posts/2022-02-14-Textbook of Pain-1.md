@@ -6,8 +6,7 @@ date:       2022-02-14
 author:     DL
 header-img: img/home-bg-o.jpg
 catalog: true
-tags:
-    - Pain
+tags: - Pain
 ---
 
 ## Foreword and Preface
