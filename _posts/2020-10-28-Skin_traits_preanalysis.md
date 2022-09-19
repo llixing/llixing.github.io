@@ -42,7 +42,7 @@ b<-cor(a[,2:117],use="pairwise.complete.obs")
 ggcorrplot(b,method="square",tl.cex=1.6,hc.order=T,hc.method="ward.D",type="upper",lab=T,lab_size=0.1)
 ```
 
-### 5. Covariate_analysis
+### 5. Linear_regression_analysis
 
 ```
 data_548 <- read.table(file="covariate.txt",sep="\t",header=T,row.names = 1)
