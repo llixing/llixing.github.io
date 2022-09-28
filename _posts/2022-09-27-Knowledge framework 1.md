@@ -32,17 +32,64 @@ tags:
 
 ---
 
-### 2.CANDELA项目介绍
+### 2.CANDELA项目简介
+
+#### 2.1 项目概况
+
+&emsp;&emsp;遗传学的最新进展对人类进化的研究产生了重大影响。这些发展也引发​​了一系列伦理和社会问题，包括生物和文化因素在构建人类身份认同中的相互作用。拉丁美洲拥有三个主要大洲的人类群体（非洲人、欧洲人和美洲原住民）的广泛混合的历史，为从生物学和社会科学角度解决有关人类进化的许多问题提供了独特的机会。
 
 &emsp;&emsp;CANDELA项目由Andrés课题组发起，全名为**Consortium for the Analysis of the Diversity and Evolution of Latin America（拉丁美洲多样性和演变分析协会）**。这是一个国际性的多学科联盟，主要的研究方向为拉丁美洲的人群多样性及其社会背景组成。
 
-&emsp;&emsp;CANDELA队列样本主要由以下的五个国家构成：墨西哥、哥伦比亚、秘鲁、智利和巴西。研究人员会对招募到的志愿者们进行外表表征的提取、基因数据的分析、社会背景的调查以及祖先血统的评估。通过对上述人群样本进行表型--基因型--社会因素等一系列的分析，我们旨在探讨与人类学、生物学和医学研究相关的广泛的科学问题。此外，由于我们使用的队列为拉丁美洲混合人群队列，我们还旨在探索影响种族认同和种族观念的社会和生物学因素之间的复杂关系，并反思性地研究拉丁美洲人群生物学研究的动机。
+&emsp;&emsp;CANDELA队列的志愿者主要来自以下五个国家：墨西哥、哥伦比亚、秘鲁、智利和巴西。在志愿者招募阶段，我们所做的工作为：
 
-&emsp;&emsp;
+- 表征一系列身体特征，包括：面部特征、皮肤、头发和眼睛的色素沉着、男性秃发和白发。
+- 记录社会经济指标、对祖先血统的自我认知、对“种族”问题的看法等。
+- 采集血液或唾液样本，以用于提取DNA，并获得基因型数据。
+- 通过计算获得全体样本的在祖先血统方面的遗传估计，并与收集的表型和社会学信息进行比较。
+- 利用全基因组关联分析来挖掘出那些影响身体表型特征的特定基因。这些基因的鉴定将对基础生物医学以及更多应用研究产生一系列影响。
 
+#### 2.2 媒体报道
 
+[![xm9fdx.jpg](https://s1.ax1x.com/2022/09/28/xm9fdx.jpg)](https://imgse.com/i/xm9fdx)
 
+- [Joint press release from UCL and University of Bradford](https://www.ucl.ac.uk/biosciences/gee/candela/media-coverage-hair-paper-0)
+- [BBC World News](https://www.youtube.com/watch?v=UamjVeMlCro&feature=emb_logo)
+- [Sky News](https://www.youtube.com/watch?v=D42jY5Kckbc&ab_channel=CandelaProject)
+- [Newspaper Cartoon](https://www.dailymail.co.uk/news/article-3474020/Mac-Scientists-discovering-gene-grey-hair.html)
+- [BBC: Grey hair gene discovered by scientists](http://www.bbc.co.uk/news/health-35687287)
+- [BT News: Discovery of grey hair gene could lead to new treatments](http://home.bt.com/news/science-news/discovery-of-grey-hair-gene-could-lead-to-new-treatments-11364043661513)
+- [Cornishman: End of grey hair in sight as scientists discover the gene responsible](http://www.cornishman.co.uk/Scientists-discover-grey-hair-gene/story-28843809-detail/story.html)
+- [Daily Mail: Getting to the root of grey hair: Scientists discover why we lose our youthful locks and say they could one day prevent it](http://www.dailymail.co.uk/sciencetech/article-3471301/Getting-root-grey-hair-Scientists-discover-lose-youthful-locks-say-one-day-prevent-it.html)
+- [Evening Standard: Scientists identify gene that turns our hair grey...and another that gives Cara those bushy eyebrows](http://www.standard.co.uk/news/health/scientists-identify-gene-that-turns-our-hair-greyand-another-that-gives-cara-those-bushy-eyebrows-a3193081.html)
+- [Financial Times: Scientists root out genetic secrets of human hair](http://www.ft.com/cms/s/0/b03ad8ca-df9b-11e5-b072-006d8d362ba3.html#axzz41fhVPL2Q)
+- [Guardian: Combing human genome reveals roots of hair diversity](https://www.theguardian.com/science/2016/mar/01/combing-human-genome-reveals-roots-of-hair-diversity)
+- [Irish Times: Going grey already? Don't blame stress, it's in your genes](http://www.irishtimes.com/life-and-style/health-family/going-grey-already-don-t-blame-stress-it-s-in-your-genes-1.2555577)
+- [Mirror: Grey hair' gene discovered by scientists in breakthrough which could one day 'block' silver locks](http://www.mirror.co.uk/news/technology-science/science/grey-hair-gene-discovered-scientists-7471702)
+- [News Independent: Researchers Find Gene Linked With Grey Hair](http://www.thenewsindependent.com/researchers-find-gene-linked-grey-hair/10160/)
+- [NHS Choices: No cure for grey hair](http://www.nhs.uk/news/2016/03March/Pages/no-cure-for-grey-hair.aspx)
+- [Scotsman: Scientists identify gene for grey hair, paving way for halting process](http://www.scotsman.com/news/scientists-identify-gene-for-grey-hair-paving-way-for-halting-process-1-4040691)
+- [Sky News: Grey Hair Gene Found... But Can It Be Stopped?](http://news.sky.com/story/1651785/grey-hair-gene-found-but-can-it-be-stopped)
+- [Sun: Cara Dele-gene: Scientists find genes behind model's bold brows](http://www.thesun.co.uk/sol/homepage/woman/health/health/6969714/Cara-Delevingne-eyebrows-caused-by-genes.html)
+- [Telegraph: End of grey hair in sight as scientists find gene responsible](http://www.telegraph.co.uk/news/science/science-news/12179447/End-of-grey-hair-in-sight-as-scientists-find-gene-responsible.html)
+- [The Times: End of grey hair in sight with gene discovery](http://www.thetimes.co.uk/tto/science/article4703549.ece)
+- [Western Daily Press: Gene for grey hair has been identified paving the way for new rejuvenating treatments](http://www.westerndailypress.co.uk/Gene-grey-hair-identified-paving-way-new/story-28838152-detail/story.html)
 
+#### 2.3 论文发表情况
+
+- [智利遗传祖先分布，Rev. méd](http://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0034-98872014000300001&lng=en&nrm=iso&tlng=en)
+- [人体皮肤色素沉着，PLoS ONE](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0096886)
+- [CANDELA项目介绍，PLoS Genetics](http://www.plosgenetics.org/doi/pgen.1004572)
+- [人类面部变异，American Journal of Physical Anthropology](http://onlinelibrary.wiley.com/doi/10.1002/ajpa.22688/abstract)
+- [人类耳朵形态，Nature Communications](http://www.nature.com/ncomms/2015/150624/ncomms8500/full/ncomms8500.html)
+- [人类头发形态变化，Nature Communications](http://www.nature.com/ncomms/2016/160301/ncomms10815/full/ncomms10815.html)
+- [人类面部特征变异，Nature Communications](http://www.nature.com/ncomms/2016/160519/ncomms11616/full/ncomms11616.html)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
 
 
@@ -68,7 +115,6 @@ tags:
 ### 3.4 人类面部皮肤衰老机制的遗传学研究
 
 ### 3.5 普通人群疼痛敏感性的遗传学研究
-
 
 
 
