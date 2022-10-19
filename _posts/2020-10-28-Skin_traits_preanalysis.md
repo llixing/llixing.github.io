@@ -38,8 +38,11 @@ p + geom_density(color = "red", fill = "red")
 ### 4. Correlation_analysis
 
 ```
-b<-cor(a[,2:117],use="pairwise.complete.obs")
-ggcorrplot(b,method="square",tl.cex=1.6,hc.order=T,hc.method="ward.D",type="upper",lab=T,lab_size=0.1)
+library(corrplot)
+a <- read.table(file="clipboard",sep="\t",header=T,row.names=1)
+b<-cor(a[,1:25],use="pairwise.complete.obs")
+corrplot(as.matrix(b),method = "square",tl.cex = 0.85,cl.cex = 0.85,
+         col = COL2('RdBu', 10),tl.col = "black",cl.pos = "b")
 ```
 
 ### 5. Linear_regression_analysis
