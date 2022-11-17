@@ -38,11 +38,19 @@ p + geom_density(color = "red", fill = "red")
 ### 4. Correlation_analysis
 
 ```
+library(psych)
 library(corrplot)
+library(RColorBrewer)
+
+rm(list=ls())
 a <- read.table(file="clipboard",sep="\t",header=T,row.names=1)
-b<-cor(a[,1:25],use="pairwise.complete.obs")
-corrplot(as.matrix(b),method = "square",tl.cex = 0.85,cl.cex = 0.85,
-         col = COL2('RdBu', 10),tl.col = "black",cl.pos = "b")
+ct <- corr.test(a)
+
+corrplot(as.matrix(ct$r),method = "square",tl.cex = 0.8,cl.cex = 0.8,
+         col = colorRampPalette(c("royalblue","white","firebrick3"))(10),tl.col = "black",cl.pos = "b")
+
+write.table(ct$r,file="Pain_skin_cor.txt",sep="\t",quote=F)
+write.table(ct$p,file="Pain_skin_pvalue.txt",sep="\t",quote=F)
 ```
 
 ### 5. Linear_regression_analysis
