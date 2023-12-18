@@ -1,13 +1,13 @@
 # Site settings
 title: LX Blog
 SEOTitle: 小星的博客 | LX Blog
-header-img: img/max-saeling-1097515-unsplash.jpg
-email: 20110700034@fudan.edu.cn
+header-img: img/homepage.jpg
+email: lingxing997@gmail.com
 description: "Stay hungry, stay foolish."
-keyword: "DL, LiDing Blog, 丁立的博客, babyding, 丁立, Bioinformatics, LiDing"
-url: "http://babyding.github.io"          # your host, for absolute URL
+keyword: "LX, LX Blog, 小星的博客"
+url: "http://llixing.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/babyding/babyding.github.io.git" # you code repository
+github_repo: "https://github.com/llixing/llixing.github.io.git" # you code repository
 
 # Basic settings
 sass: 
@@ -19,11 +19,11 @@ sass:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/psb.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/lx.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false    
-github_username:    babyding
+github_username:    llixing
 
 
 
@@ -51,35 +51,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-
-
-
-# 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: babyding
-
-# Gitalk
-# gitalk:
-#   enable: true    #是否开启Gitalk评论
-#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#   repo: babyding.github.io    #仓库名称
-#   owner: babyding    #github用户名
-#   admin: babyding
-#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
-
-# 统计
-
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: b50bf2b12b5338a1845e33832976fd68
-
-# Google Analytics
-ga_track_id: 'UA-128520465-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-
 
 
 
